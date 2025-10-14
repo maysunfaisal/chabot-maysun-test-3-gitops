@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: chabot-maysun-test-3-model-config
 data:
-  MODEL_ENDPOINT: ""
-  MODEL_NAME: "vllm-qwen3-8b-fp8"
+  MODEL_ENDPOINT: "http://qwen3-8b-fp8-predictor.vllm.svc.cluster.local:8080"
+  MODEL_NAME: "qwen3-8b-fp8"
