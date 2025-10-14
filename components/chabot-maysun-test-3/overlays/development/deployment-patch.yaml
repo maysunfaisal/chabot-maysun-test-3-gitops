@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/redhat-ai-dev/ai-template-bootstrap-app:latest # use pre-built to bootstrap
+        - image: quay.io/rhdhpai-rolling-demo/chabot-maysun-test-3:25c2919f5557b2e0544542bc43f3627b5feff6f9@sha256:3c60b87bf4ebd934e0d9ce6c0440f098b6c999e058b999d17be2cbddff2887ef # use pre-built to bootstrap
           name: app-inference
