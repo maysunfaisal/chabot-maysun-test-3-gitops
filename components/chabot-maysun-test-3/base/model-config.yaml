@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chabot-maysun-test-3-model-config
+data:
+  MODEL_ENDPOINT: ""
+  MODEL_NAME: "vllm-qwen3-8b-fp8"
